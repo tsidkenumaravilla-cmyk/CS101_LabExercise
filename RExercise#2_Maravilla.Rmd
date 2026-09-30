@@ -1,0 +1,59 @@
+---
+title: "Exercise 2: Arithmetic Operation"
+author: "Tsidkenu Maravilla"
+date: "2026-09-30"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Part A - Arithmetic Operations
+```{r}
+a <- 17
+b <- 5
+
+a + b
+a - b
+a * b
+a / b
+
+a %% b
+a %/% b
+
+2^10
+```
+## Part B - Basic Data types
+```{r}
+x <- 42
+y <- 42L
+z <- "42"
+w <- TRUE
+v <- 3+2i
+
+typeof(x)
+typeof(y)
+typeof(z)
+typeof(w)
+typeof(v)
+
+class(x)
+class(y)
+class(z)
+class(w)
+class(v)
+
+mode(x)
+mode(y)
+mode(z)
+mode(w)
+mode(v)
+
+```
+## Part C - Type Conversion (20 min)
+```{r}
+num_string <- "123"
+as.numeric(bad_string)
+
+
+
