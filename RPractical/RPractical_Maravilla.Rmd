@@ -3,8 +3,8 @@ title: "RPracrical_Maravilla"
 author: "Tsidkenu Maravilla"
 date: "2026-11-11"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 ##Part A: Basic Operations
 ##A1: 
